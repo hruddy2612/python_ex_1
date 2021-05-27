@@ -114,7 +114,10 @@ Z = [L [0]]
 
 #isolate 2,3 with variable x
 X = [L[2][1:-1]]
-print(Z)
+
+#isolate 8, 10 and skip 9 with variable A
+A = [L[4][0: :2]]
+print(A)
 
 
 
