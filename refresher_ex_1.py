@@ -108,8 +108,15 @@ print("Hello", name)
 # and use these variables to assemble the final result.
 print("start of part 1") # set breakpoint here
 L = [0, [], [1,2,3,4], [[5],[6,7]], [8,9,10]]
-print(L)
+
+#isolate 0 with variable Z
+Z = [L [0]]
+
+#isolate 2,3 with variable x
+X = [L[2][1:-1]]
+print(Z)
 # your code
+
 
 
 print("end of 1") # set breakpoint here 
