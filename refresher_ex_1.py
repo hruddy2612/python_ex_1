@@ -115,7 +115,7 @@ Z = [L [0]]
 #isolate 2,3 with variable x
 X = [L[2][1:-1]]
 print(Z)
-# your code
+
 
 
 
