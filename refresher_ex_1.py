@@ -243,6 +243,7 @@ for e in sentence_list:
 # LANGUAGE
 print("start of part 3") # set breakpoint here
 # your code here
+s = "Python is an interpreted, high-level, general-purpose programming language"
 
 
 print("end of 3") # set breakpoint here 
