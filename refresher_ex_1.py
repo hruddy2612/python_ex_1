@@ -340,6 +340,13 @@ s = "A very long description" # a long string
 filler = "..."
 # your code here
 
+for x in range(5,15):
+    if x + filler > s:
+        print (s)  #if x is larger than the filler + s then print s
+    else:
+        print (x + filler + s)
+
+
 
 print("end of 4") # set breakpoint here 
 '''
