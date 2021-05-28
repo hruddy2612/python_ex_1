@@ -185,7 +185,12 @@ split_s = s.split (".")
 print (split_s)
 
 #print number of sentences 
-print ("there are", len(split_s), "sentences")
+print ("there are", len(split_s), "sentences:")
+
+#print list length and string
+split = [[len(e), e] for e in split_s]
+print (split)
+
 print("end of 2") # set breakpoint here 
 '''
 
