@@ -183,6 +183,9 @@ s = "Python is an interpreted, high-level, general-purpose programming language.
 #split s into sentences by '.'
 split_s = s.split (".")
 print (split_s)
+
+#print number of sentences 
+print ("there are", len(split_s), "sentences")
 print("end of 2") # set breakpoint here 
 '''
 
