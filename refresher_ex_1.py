@@ -341,10 +341,10 @@ filler = "..."
 # your code here
 
 for x in range(5,15):
-    if x + filler > s:
-        print (s)  #if x is larger than the filler + s then print s
+    if x + len(filler) > len(s):
+        print (s)  #if x is larger than the characters in the filler + s, then print s
     else:
-        print (x + filler + s)
+        print (s[0:x] + filler + s[15:]) #this combines the first parameter of X (5),the filler, and the last part of the string together.
 
 
 
