@@ -252,7 +252,7 @@ split_s = s.split (" ")
 lower = True
 
 #create a for loop for words in split_s string. define if and else. 
-#if a word is not lowercase, print as uppercase (false)
+#if lower is the same as True, the word will be printed in uppercase, making lower = false
 #if a word is lowercase, print lowercase (true)
 for word in split_s:
 
