@@ -243,7 +243,11 @@ for e in sentence_list:
 # LANGUAGE
 print("start of part 3") # set breakpoint here
 # your code here
+# define s
 s = "Python is an interpreted, high-level, general-purpose programming language"
+#split s into list based on spaces
+split_s = s.split (" ")
+print (split_s)
 
 
 print("end of 3") # set breakpoint here 
