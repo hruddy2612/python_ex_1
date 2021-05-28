@@ -251,6 +251,18 @@ split_s = s.split (" ")
 #lowercase letters being true is the normal condition 
 lower = True
 
+#create a for loop for words in split_s string. define if and else. 
+#if a word is not lowercase, print as uppercase (false)
+#if a word is lowercase, print lowercase (true)
+for word in split_s:
+
+    if lower == True:
+        print(word.upper())
+        lower = False
+    else:
+        print(word)
+        lower = True
+
 
 print("end of 3") # set breakpoint here 
 '''
